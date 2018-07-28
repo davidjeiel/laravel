@@ -15,6 +15,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::any('/testeAny', function () {
-    return view('welcome');
-});
+Route::resource('estoque/categoria', 'CategoriaController' ); 

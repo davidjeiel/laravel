@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Http\Controllers\Auth;
+namespace lara3\Http\Controllers\Auth;
 
-use App\User;
+use lara3\User;
 use Validator;
-use App\Http\Controllers\Controller;
+use lara3\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\ThrottlesLogins;
 use Illuminate\Foundation\Auth\AuthenticatesAndRegistersUsers;
 
